@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct BackgroundColorModifier: ViewModifier {
-    func body(content: Content) -> some View {
+public struct BackgroundColorModifier: ViewModifier {
+    public func body(content: Content) -> some View {
         content
             .containerRelativeFrame([.vertical, .horizontal])
             .background(.rainbowRed)

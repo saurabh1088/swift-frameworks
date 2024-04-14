@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 extension View {
-    func fullScreenBackgroundColorRed() -> some View {
+    public func fullScreenBackgroundColorRed() -> some View {
         modifier(BackgroundColorModifier())
     }
 }

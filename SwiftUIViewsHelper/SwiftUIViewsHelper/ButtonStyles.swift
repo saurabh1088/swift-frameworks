@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct FullScreenWideButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
+public struct FullScreenWideButton: ButtonStyle {
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(maxWidth: .infinity, maxHeight: 44)
             .foregroundStyle(.white)
